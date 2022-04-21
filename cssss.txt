@@ -1,0 +1,92 @@
+/* HEADER CSS */
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* NAVBAR STYLING LOGO+MENU */
+
+.navbar {
+    border: 2px solid rgb(255, 0, 0);
+    overflow: none;
+}
+
+
+/* LOGO STYLING */
+
+.logo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 2rem 4rem;
+    position: absolute;
+    left: 8rem;
+    top: 0.7rem
+}
+
+.navbar h1 {
+    color: white;
+    position: absolute;
+    top: 3rem;
+    left: 20rem;
+    font-size: 2rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+.navbar .menu li a:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 3.5rem;
+}
+
+
+/* MENU STYLING */
+
+.navbar .menu {
+    float: right;
+    margin-top: 1rem;
+    position: absolute;
+    right: 6rem;
+}
+
+
+/* Float apnay parent element ki height chor deta hai..is k lye ham ye kam krtay hain */
+
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* NAVBAR ITEMS STYLING */
+
+.nav-item {
+    display: inline-block;
+}
+
+.menu .nav-item a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+ul li {
+    padding: 2rem 1.5rem;
+}
+
+
+/* HEADER TITLE STYLING */
+
+.content-header h1 {
+    color: whitesmoke;
+}

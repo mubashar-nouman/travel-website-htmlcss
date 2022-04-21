@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mountain Travel</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <img src="logo.png" class="logo" alt="Logo">
+            <h1>Mountain Travel</h1>
+            <ul class="menu">
+                <li class="nav-item" id="home"><a href="./index.html">Home</a></li>
+                <li class="nav-item" id="about"><a href="#section">About</a></li>
+                <li class="nav-item" id="contact"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Let's Explore The World</h1>
+            <p> Traveling – it leaves you speechless, then turns you into a storyteller</p>
+            <a href="#">Explore Now</a>
+        </div>
+    </header>
+
+    <section class="section" id="section">
+        <div class="container">
+            <div class="row1">
+                <div class="img">
+                    <img src="./img/showcase-photo1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>France</h2>
+                    <p>Lorem ipsum dolor sit Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illo quas provident. amet consectetur adipisicing elit. Laborum doloremque ratione iure?</p>
+                </div>
+                <div class="btn1">
+                    <a href="about.html">Read More</a>
+                </div>
+
+            </div>
+            <div class="row2">
+                <div class="img">
+                    <img src="./img/showcase-photo2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>France</h2>
+                    <p>Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti vitae dolor aliquid labore? amet consectetur adipisicing elit. Laborum doloremque ratione iure?</p>
+                </div>
+                <div class="btn2">
+                    <a href="contact.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contactus" id="contact">
+        <h3>Contact Form</h3>
+
+        <div class="form">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p id="foot">Mountain Travel &#169; 2020, All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

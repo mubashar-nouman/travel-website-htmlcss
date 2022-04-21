@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda+Caption:wght@800&family=Lobster&display=swap');
+
+/* CSS RESET */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /* 10 px */
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header-image.jpg);
+    height: 95vh;
+    background-position: center;
+    width: 100%;
+}
+
+
+/* .navbar {
+    border: 2px solid red;
+} */
+
+.menu {
+    /* border: 2px solid green; */
+    float: right;
+    display: flex;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.menu .nav-item {
+    /* border: 2px solid red; */
+    padding: 1rem;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.navbar ul li a:hover {
+    background: white;
+    border-radius: 30px;
+    color: black;
+}
+
+.navbar h1 {
+    color: rgb(255, 217, 1);
+    float: left;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    position: absolute;
+    top: 5rem;
+    left: 16rem;
+}
+
+.navbar .logo {
+    height: 3%;
+    width: 10%;
+    float: left;
+    margin: 0rem 4rem;
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header-content {
+    /* border: 2px solid white; */
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 01em;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    top: 50%;
+    left: 50%;
+}
+
+.header-content h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.2rem;
+    font-size: 4rem;
+    /* border: 2px solid yellow; */
+    margin: 0em 0.5em;
+}
+
+.header-content p {
+    font-family: 'Bebas Neue', cursive;
+    /* border: 2px solid red; */
+    letter-spacing: 0.2rem;
+    margin: 0.3em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.header-content a {
+    /* border: 2px solid green; */
+    text-decoration: none;
+    color: red;
+    background: white;
+    border-radius: 10em;
+    margin-top: 2em;
+    margin-left: 5em;
+    font-size: 2rem;
+    padding: 0.3em;
+    padding: 0.3em 1em;
+}
+
+.header-content a:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+/* ################ STYLING SECTION ################# */
+
+.container {
+    /* border: 2px solid red; */
+    padding: 10rem 20rem;
+    background-color: rgb(231, 227, 227);
+}
+
+.row1 {
+    /* border: 2px solid red; */
+    height: 350px;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+.row2 {
+    /* border: 2px solid red; */
+    height: 350px;
+    margin-bottom: 3rem;
+    background-color: white;
+}
+
+.row1 .img {
+    /* border: 2px solid red; */
+    /* background-image: url(../img/showcase-photo2.jpg); */
+    background-position: center;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.row1 .text {
+    /* border: 2px solid red; */
+    padding: 2rem 3rem;
+    width: 50%;
+    float: right;
+}
+
+.row2 .img {
+    /* border: 2px solid red; */
+    /* background-image: url(../img/showcase-photo1.jpg); */
+    background-position: center;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.row2 .text {
+    /* border: 2px solid red; */
+    padding: 2rem 3rem;
+    width: 50%;
+    float: right;
+}
+
+.row1 img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row2 img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row1 .text h2 {
+    font-size: 6rem;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.row1 .text p {
+    font-size: 2em;
+}
+
+.row2 .text h2 {
+    font-size: 6em;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.row2 .text p {
+    font-size: 2em;
+}
+
+.row1 .btn1 a {
+    text-decoration: none;
+    border: 1px solid red;
+    font-size: 2rem;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 0rem 3rem;
+    color: red;
+}
+
+.row2 .btn2 a {
+    text-decoration: none;
+    border: 1px solid red;
+    font-size: 2rem;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 0rem 3rem;
+    color: red;
+}
+
+.row1 .btn1 a:hover {
+    color: white;
+    background-color: red;
+}
+
+.row2 .btn2 a:hover {
+    color: white;
+    background-color: red;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.footer {
+    height: 15vh;
+    background-color: rgb(86, 73, 109);
+}
+
+#foot {
+    text-align: center;
+    color: white;
+    padding: 3rem 5rem;
+    font-size: 2rem;
+}
